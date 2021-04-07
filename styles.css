@@ -14,7 +14,7 @@ body {
 	top:0;
 	z-index: 500;
 	width: 100%;
-	word-spacing: 10px;
+	word-spacing: 25px;
 }
 
 .navbar a {
@@ -86,7 +86,7 @@ a:hover{
 }
 
 .grid-container {
-	  margin: 10px;
+	  margin: 0 auto;
 	  display: grid;
   
 }
