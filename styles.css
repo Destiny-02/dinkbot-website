@@ -85,7 +85,7 @@ a:hover{
 }
 
 .grid-container {
-  margin: 0 auto;
+  margin: 10px;
   display: grid;
   
 }
