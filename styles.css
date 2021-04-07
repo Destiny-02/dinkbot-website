@@ -86,20 +86,16 @@ a:hover{
 }
 
 .grid-container {
-	  margin: 0 auto;
-	  display: grid;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
   
 }
 
 .grid-item {
-	  padding: 20px;
-	  padding-bottom: 50px;
-	  font-size: 20px;
-	  min-width: 400px;
-	  text-align: left;
+	padding: 20px;
+	padding-bottom: 50px;
+	font-size: 20px;
+	min-width: 400px;
+	text-align: left;
 } 
-
-/* resize on mobile */
-@media (min-width: 900px) {
-  .grid-container { grid-template-columns: repeat(2, 1fr); }
-}
