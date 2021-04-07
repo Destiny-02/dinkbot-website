@@ -10,10 +10,11 @@ body {
 .navbar {
 	text-align:right;
 	background-color: rgb(54, 57, 63); /* discord grey */
-	overflow:hidden;
 	position: fixed; 
 	top:0;
 	width: 100%;
+	z-index: 500;
+	overflow: hidden;
 }
 
 .navbar a {
@@ -28,13 +29,22 @@ a.navbar:hover {
 }
 
 .content {
-	padding-left: 70px;
-	padding-right: 70px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.features {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	
 }
 
 h1 { /* page title */
 	font-size:70px;
-	text-align:left;
+	text-align:center;
 }
 
 h2 { /* home page dinkbot title */
@@ -50,11 +60,12 @@ h3 { /* home page dinkbot subtitle */
 
 h4 { /*general text*/
 	font-size:20px;
+	text-align:center;
 }
 
 h5 { /* general text titles */
 	font-size:30px;
-	text-align:left;
+	text-align:center;
 }
 a.button {
 	background-color: transparent;
