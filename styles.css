@@ -14,7 +14,7 @@ body {
 	top:0;
 	z-index: 500;
 	width: 100%;
-	word-spacing:25px;
+	word-spacing: 10px;
 }
 
 .navbar a {
