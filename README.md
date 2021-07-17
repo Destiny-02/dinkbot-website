@@ -1,3 +1,3 @@
 # dinkbot-website
 
-http://destiny-02.github.io/
+https://inspiring-brattain-0236eb.netlify.app/index.html
